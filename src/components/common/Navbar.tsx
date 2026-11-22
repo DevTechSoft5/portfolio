@@ -71,17 +71,9 @@ export const Navbar: React.FC = () => {
                 className="w-full h-full object-contain"
               />
             </div>
-            <div className="flex flex-col">
-              <span className="font-bold text-lg tracking-tight text-slate-900 group-hover:text-blue-600 transition-colors flex items-center gap-1.5">
-                DevTechSoft
-                <span className="text-[10px] font-semibold uppercase tracking-wider bg-blue-50 text-blue-700 px-1.5 py-0.5 rounded border border-blue-200/60">
-                  Studio
-                </span>
-              </span>
-              <span className="text-[10px] text-slate-500 hidden sm:block tracking-wide">
-                Engineering &amp; Automation
-              </span>
-            </div>
+            <span className="font-bold text-xl tracking-tight text-slate-900 group-hover:text-blue-600 transition-colors">
+              DevTechSoft
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
